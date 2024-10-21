@@ -1,0 +1,61 @@
+.footer {
+  background-color: #22627F; /* Define a cor de fundo do footer como um tom de azul */
+  color: #A7CDDF; /* Define a cor do texto no footer como um tom claro de azul */
+  font-family: 'Aeronaut'; /* Define a fonte usada no footer como 'Aeronaut' */
+  min-height: 100px; /* Define uma altura mínima para o footer, garantindo que ele não fique muito baixo */
+  text-align: center; /* Centraliza o texto dentro do footer */
+  width: 100vw; /* Define a largura do footer como 100% da largura da janela (viewport) */
+  position: sticky; /* Define o footer como "sticky", permitindo que ele fique fixo durante o scroll */
+  padding: 5px 0; /* Adiciona 5 pixels de espaçamento interno (padding) em cima e embaixo do footer */
+  padding-bottom: 10px; /* Adiciona 10 pixels de padding na parte inferior do footer */
+}
+
+.footer-content {
+  display: flex; /* Usa Flexbox para organizar as seções do footer em uma linha */
+  flex-wrap: wrap; /* Permite que as seções se movam para a próxima linha se não houver espaço suficiente */
+  justify-content: space-around; /* Distribui o espaço entre as seções de forma uniforme */
+  padding: 10px 20px; /* Adiciona 10 pixels de padding em cima e embaixo e 20 pixels nas laterais */
+}
+
+.footer-section {
+  display: flex; /* Usa Flexbox para organizar o conteúdo dentro da seção do footer */
+  flex-direction: column; /* Alinha os itens dentro da seção em uma coluna */
+  flex: 1; /* Permite que as seções cresçam igualmente para ocupar o espaço disponível */
+  min-width: 150px; /* Define uma largura mínima de 150 pixels para cada seção */
+  margin: 10px; /* Adiciona 10 pixels de margem ao redor de cada seção, criando espaço entre elas */
+}
+
+.ftc {
+  display: flex; /* Usa Flexbox para organizar o conteúdo dentro do container .ftc */
+  transform: scale(0.8); /* Reduz o tamanho do container em 20% */
+  justify-content: center; /* Centraliza horizontalmente os elementos dentro do container */
+  align-items: flex-end; /* Alinha os elementos na parte inferior do container */
+  margin-top: 70px; /* Adiciona 70 pixels de margem acima do container .ftc, empurrando-o para baixo */
+}
+
+.contact-button {
+  background-color: #C35D3A; /* Define a cor de fundo do botão como um tom laranja */
+  color: white; /* Define a cor do texto no botão como branco */
+  font-family: 'Aeronaut'; /* Define a fonte do texto do botão como 'Aeronaut' */
+  border: none; /* Remove a borda padrão do botão */
+  padding: 10px 20px; /* Adiciona 10 pixels de padding vertical e 20 pixels horizontal no botão */
+  cursor: pointer; /* Altera o cursor para indicar que o botão é clicável */
+  border-radius: 5px; /* Arredonda os cantos do botão com um raio de 5 pixels */
+}
+
+.social-icons i {
+  font-size: 24px; /* Define o tamanho dos ícones sociais como 24 pixels */
+  margin: 0 10px; /* Adiciona 10 pixels de margem à esquerda e à direita dos ícones sociais */
+  cursor: pointer; /* Altera o cursor para indicar que os ícones são clicáveis */
+}
+
+.footer h3, .footer h4 {
+  margin-bottom: 10px; /* Adiciona 10 pixels de margem abaixo dos títulos h3 e h4 */
+  font-size: 1.2em; /* Define o tamanho da fonte dos títulos h3 e h4 como 1.2 vezes o tamanho da fonte base */
+}
+
+.footer p {
+  font-size: 1.0em; /* Define o tamanho da fonte dos parágrafos como o tamanho padrão (1.0 vezes a fonte base) */
+  color: white; /* Define a cor do texto dos parágrafos como branco */
+  margin: 5px 0; /* Adiciona 5 pixels de margem acima e abaixo dos parágrafos */
+}

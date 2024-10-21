@@ -1,0 +1,32 @@
+.header {
+  display: flex; /* Define o layout do cabeçalho como flexível, permitindo a organização dos elementos internos */
+  /* position: fixed; */ /* (Comentado) Pode ser usado para fixar o cabeçalho no topo da página durante o scroll */
+  justify-content: space-between; /* Distribui o espaço entre os elementos de forma que o primeiro fique à esquerda e o último à direita */
+  align-items: center; /* Alinha verticalmente os elementos do cabeçalho ao centro */
+  background-color: #E9DCC6; /* Define a cor de fundo do cabeçalho como um tom bege claro */
+  padding: 20px 40px; /* Adiciona 20 pixels de espaçamento interno (padding) na parte superior e inferior e 40 pixels nas laterais */
+  margin-left: 40px; /* Adiciona 40 pixels de margem à esquerda do cabeçalho */
+}
+
+.logo {
+  font-family: 'Aeronaut', sans-serif; /* Define a fonte do logotipo como 'Aeronaut', com uma fonte de reserva sans-serif */
+  font-size: 24px; /* Define o tamanho da fonte do logotipo como 24 pixels */
+}
+
+.nav-menu {
+  list-style: none; /* Remove os marcadores padrão da lista */
+  display: flex; /* Usa flexbox para organizar os itens do menu de navegação em uma linha */
+  /* gap: 20px; */ /* (Comentado) Pode ser usado para adicionar um espaço entre os itens do menu, se necessário */
+}
+
+.nav-menu li {
+  font-family: 'Aeronaut', sans-serif; /* Define a fonte dos itens do menu como 'Aeronaut' */
+  color: #8D692D; /* Define a cor do texto dos itens do menu como um tom de marrom claro */
+  font-size: 18px; /* Define o tamanho da fonte dos itens do menu como 18 pixels */
+  cursor: pointer; /* Altera o cursor para indicar que os itens do menu são clicáveis */
+  margin-right: 30px; /* Adiciona 30 pixels de margem à direita de cada item do menu, criando espaço entre eles */
+}
+
+.nav-menu .active {
+  border-bottom: 2px solid #ED8A43; /* Adiciona uma borda inferior de 2 pixels de espessura e na cor laranja (#ED8A43) para indicar o item ativo no menu */
+}

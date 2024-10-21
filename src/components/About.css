@@ -1,0 +1,39 @@
+.about {
+  background-color: #E9DCC6; /* Define a cor de fundo da seção "Sobre" como um tom bege claro */
+  padding: 40px; /* Adiciona 40 pixels de espaçamento interno (padding) em todos os lados da seção */
+  text-align: center; /* Centraliza o texto dentro da seção */
+}
+
+.about h1 {
+  font-family: 'Aeronaut'; /* Define a fonte do título como 'Aeronaut' */
+  font-size: 70px; /* Define o tamanho da fonte do título como 70 pixels */
+  text-align: left; /* Alinha o texto do título à esquerda */
+  margin-left: 50px; /* Adiciona 50 pixels de margem à esquerda do título */
+  color: #4e432f; /* Define a cor do texto do título como um marrom escuro */
+  font-family: 'Aeronaut', sans-serif; /* Define a fonte novamente como 'Aeronaut' e especifica uma fonte de reserva (sans-serif) */
+}
+
+.about .description p {
+  font-size: 18px; /* Define o tamanho da fonte do parágrafo como 18 pixels */
+  font-family: 'Aeronaut'; /* Define a fonte do parágrafo como 'Aeronaut' */
+  line-height: 1.5; /* Define a altura da linha do texto como 1,5 vezes o tamanho da fonte, aumentando a legibilidade */
+  color: #8D692D; /* Define a cor do texto do parágrafo como um tom de marrom claro */
+  max-width: 460px; /* Define uma largura máxima de 460 pixels para o parágrafo, evitando que fique muito largo */
+  margin-left: 50px; /* Adiciona 50 pixels de margem à esquerda do parágrafo */
+  text-align: left; /* Alinha o texto do parágrafo à esquerda */
+}
+
+.image-container {
+  margin-top: 20px; /* Adiciona 20 pixels de margem acima do container da imagem, criando espaço entre a descrição e a imagem */
+}
+
+.wave {
+  margin-right: 800px; /* Adiciona 800 pixels de margem à direita do elemento, possivelmente deslocando-o para a esquerda na tela */
+  margin-top: -30px; /* Aplica uma margem negativa de 30 pixels acima, puxando o elemento para cima em relação ao seu posicionamento normal */
+}
+
+.profile-image {
+  width: 550px; /* Define a largura da imagem do perfil como 550 pixels */
+  margin-left: 550px; /* Adiciona 550 pixels de margem à esquerda da imagem, possivelmente centralizando-a em relação à seção */
+  margin-top: -350px; /* Aplica uma margem negativa de 350 pixels acima, movendo a imagem para cima em relação à sua posição normal */
+}
